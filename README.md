@@ -4,3 +4,5 @@
 3: Enjoy the game.  
 
 PS: incase you're interested in beating the high score it's 338.  Good luck!  
+
+Run the "TRAPPED.py" file in the folder inorder to play the game.
