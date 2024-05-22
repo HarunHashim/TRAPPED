@@ -55,6 +55,7 @@ class Firewall:
 def main():
     # initialize pygame.
     pygame.init()
+    pygame.mixer.init()
     pygame.key.set_repeat(1, 1)
     # create the window and set the caption of the window
     screen = pygame.display.set_mode( ((SCREEN_WIDTH+100), (SCREEN_HEIGHT)) )
@@ -111,7 +112,7 @@ def initialize():
     game_data["score"]=0
     game_data["inc"]=[0,0,0,0,0]
     game_data["why"]=pygame.image.load("why.png")
-    game_data["idle"]=pygame.image.load("character_malePerson_Idle.png")
+    game_data["idle"]=pygame.image.load("character_malePerson_idle.png")
     game_data["hit"]=pygame.image.load("character_malePerson_hit.png")
     game_data["hit_sound"]=pygame.mixer.Sound("grunt.wav")
     # Just one line and one circle for the initial toy
