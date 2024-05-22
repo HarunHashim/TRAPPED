@@ -53,7 +53,7 @@ class Firewall:
 
 
 def main():
-    # initialize pygame
+    # initialize pygame.
     pygame.init()
     pygame.key.set_repeat(1, 1)
     # create the window and set the caption of the window
